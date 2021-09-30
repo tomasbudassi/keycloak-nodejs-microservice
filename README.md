@@ -28,8 +28,8 @@ password = mypassword
 }
 ```
 
-### PROBANDO INGRESOS DE DISTINTOS TIPOS DE USUARIO (con su respectivo Bearer Token seteado en Authorization)
-El token fue obtenido en el login (access_token)
+### PROBANDO INGRESOS DE DISTINTOS TIPOS DE USUARIO 
+##### Cada uno tiene su respectivo Bearer Token seteado en Authorization. El token fue obtenido en el login (access_token)
 ---
 
 Anonymous (GET)
