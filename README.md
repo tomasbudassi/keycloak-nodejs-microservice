@@ -2,7 +2,7 @@
 
 ### EndPoints utilizados
 
-LOGIN (POST)  
+Login (POST)
 - http://localhost:8080/auth/realms/Demo-Realm/protocol/openid-connect/token 
 
 #### Request (Body x-www-form-urlencoded)
@@ -28,7 +28,8 @@ password = mypassword
 }
 ```
 
-### PROBANDO INGRESOS DE DISTINTOS TIPOS DE USUARIO (con su respectivo token)
+### PROBANDO INGRESOS DE DISTINTOS TIPOS DE USUARIO (con su respectivo Bearer Token seteado en Authorization)
+El token fue obtenido en el login (access_token)
 ---
 
 Anonymous (GET)
